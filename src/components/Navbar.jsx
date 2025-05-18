@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Box,
-  Button,
-  Container,
-} from "@mui/material";
+import { AppBar, Toolbar, Box, Container } from "@mui/material";
 import ScrollLink from "./ScrollLink";
 import logo from "../assets/logo.svg";
 
@@ -92,31 +85,6 @@ const Navbar = () => {
                 {item.name}
               </ScrollLink>
             ))}
-            <Button
-              variant="contained"
-              color="primary"
-              component={ScrollLink}
-              to="contact"
-              smooth={true}
-              duration={500}
-              offset={-70}
-              sx={{
-                px: 3,
-                py: 1,
-                fontWeight: 600,
-                fontSize: "1rem",
-                color: "#2f2f2f",
-                boxShadow: "0 4px 12px rgba(69, 76, 204, 0.2)",
-                "&:hover": {
-                  transform: "translateY(-2px)",
-                  boxShadow: "0 6px 16px rgba(69, 76, 204, 0.3)",
-                  backgroundColor: "primary.dark",
-                },
-                transition: "all 0.3s ease",
-              }}
-            >
-              Get in touch
-            </Button>
           </Box>
         </Toolbar>
       </Container>
