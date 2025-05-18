@@ -105,7 +105,7 @@ const Navbar = () => {
                 py: 1,
                 fontWeight: 600,
                 fontSize: "1rem",
-                color: "#fff",
+                color: "#2f2f2f",
                 boxShadow: "0 4px 12px rgba(69, 76, 204, 0.2)",
                 "&:hover": {
                   transform: "translateY(-2px)",

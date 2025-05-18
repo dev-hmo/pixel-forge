@@ -77,7 +77,7 @@ export const pricingData = [
     name: "pro",
     title: "Pro",
     description:
-      "Ideal for small teams needing advanced scheduling and customization options.",
+      "Most for small teams needing advanced scheduling and customization options.",
     price: { monthly: 14.9, annually: 99.9 },
     features: [
       "All Basic Plan Features",
@@ -90,6 +90,24 @@ export const pricingData = [
     cta: "Get Started",
     highlight: true,
   },
+  {
+    id: "enterprise-plan",
+    name: "enterprise",
+    title: "Enterprise",
+    description:
+      "Tailored for large organizations requiring enterprise-grade features and integrations.",
+    price: { monthly: "Custom", annually: "Custom" },
+    features: [
+      "All Pro Plan Features",
+      "Dedicated Account Manager",
+      "Custom Integrations",
+      "Advanced Security Features",
+      "Team Collaboration Tools",
+      "Onboarding and Training",
+    ],
+    cta: "Contact Sales",
+    highlight: false,
+  },
 ];
 
 export const testimonialsData = [
@@ -99,5 +117,12 @@ export const testimonialsData = [
     name: "Fatima Khoury",
     role: "CEO, TechSolutions",
     initials: "FK",
+  },
+  {
+    id: "testimonial-2",
+    text: "The website they built for us exceeded all expectations. The user experience is flawless and our sales have doubled.",
+    name: "Hassan Ali",
+    role: "Marketing Director, InnovateCo",
+    initials: "HA",
   },
 ];

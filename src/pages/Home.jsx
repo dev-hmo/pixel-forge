@@ -8,6 +8,12 @@ import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import ContactForm from "../components/ContactForm";
 import CTA from "../components/CTA";
+import {
+  servicesData,
+  featuresData,
+  pricingData,
+  testimonialsData,
+} from "../constants/data";
 
 const Home = () => {
   return (
@@ -16,13 +22,13 @@ const Home = () => {
         <Hero />
       </Box>
       <Box id="features">
-        <Features />
+        <Features features={featuresData} />
       </Box>
-      <AboutSite />
+      <AboutSite services={servicesData} />
       <Box id="pricing">
-        <PricingPlan />
+        <PricingPlan plans={pricingData} />
       </Box>
-      <Testimonials />
+      <Testimonials testimonials={testimonialsData} />
       <FAQ />
       <Box id="contact">
         <ContactForm />
